@@ -1,14 +1,29 @@
-Make a semantic navbar i. e using semantic elements ex:- nav, ul, a.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Navbar and videos</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <a href="#">Home</a>
+            <a href="#">About us</a>
+            <a href="#">Contact us</a>
+        </ul>
+    </nav>
+    <h3>3 random videos</h3>
+    <video height="200px" width="300px" controls>
+        <source  src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4">
+    </video>
+    <video height="200px" width="300px" controls >
+        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4">
+    </video>
+    <video height="200px" width="300px" controls >
+        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4">
+    </video>
 
- It should have total of 3 links in the nav, "Home" "About us" and "Contact us".
- 
- Give any href of your choice.
- 
-
- Also, add 3 videos using these URLs, do not forget to put attribute to display the controls.
- 1) http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4
- 2) http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4
- 3) http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4
- 
-
- Add the heading "3 random videos" above the videos.
+</body>
+</html>
